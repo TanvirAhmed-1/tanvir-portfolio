@@ -30,7 +30,7 @@ const Navbar = () => {
             <a href="#project">Project</a>
           </li>
           <li className="hover:text-purple-400 transition">
-            <a href="#skill">Skill</a>
+            <a href="#skill">Skills</a>
           </li>
           <li className="hover:text-purple-400 transition">
             <a href="#Education">Education</a>

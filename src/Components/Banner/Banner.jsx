@@ -44,7 +44,7 @@ const Banner = () => {
           Hi, I’m TANVIR AHMED
         </h1>
         <div className="text-lg md:text-2xl mt-4 text-gray-300 font-semibold">
-          I am a{" "}
+          <span className="text-2xl font-bold">I am a</span>{" "}
           <span className="text-purple-400">
             {currentText}
             <motion.span
