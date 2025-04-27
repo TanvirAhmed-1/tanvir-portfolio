@@ -20,10 +20,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_x3mmjrc",         // ✅ Your EmailJS Service ID
-        "template_rcs430o",        // ✅ Your EmailJS Template ID
-        form.current,              // ✅ Ref to the form
-        "-IGmWRj8FegX0Ytfc"         // ✅ Your Public Key
+        "service_x3mmjrc",         
+        "template_rcs430o",        
+        form.current,              
+        "-IGmWRj8FegX0Ytfc"         
       )
       .then(
         () => {
